@@ -2,20 +2,20 @@
 
 _Style guide simplificado para o Grupo 4 do PI Mentora-me para Digital House_
 
-> Adaptado do AirBnb Style Guide
+> Adaptado do [Airbnb StyleGuide](https://github.com/airbnb/javascript)
 
 ## Conteúdo:
 
 1. [VS Code](#VScode)
-1. [Variáveis](#variaveis)
-1. [Objects](#objects)
-1. [Arrays](#arrays)
-1. [Functions](#functions)
+1. [Variables/Variáveis](#variaveis)
+1. [Objects/Objetos](#objects)
+1. [Arrays/Vetores](#arrays)
+1. [Functions/Funções](#functions)
 1. [Classes & Constructors](#classes--constructors)
-1. [Properties](#properties)
-1. [Comparison Operators & Equality](#comparison-operators--equality)
-1. [Comments](#comments)
-1. [Naming Conventions](#naming-conventions)
+1. [Properties/Propriedades](#properties)
+1. [Comparison Operators & Equality/Operadores de Comparação & Equidade](#comparison-operators--equality)
+1. [Comentários](#comments)
+1. [Naming Conventions/Nomeação](#naming-conventions)
 1. [Git Commits](#git-commits)
 
 ## VS Code
@@ -332,19 +332,13 @@ _Style guide simplificado para o Grupo 4 do PI Mentora-me para Digital House_
 
 - [11.1](#git-commits) Os commits no github devem ser escritos preferencialmente começando com um verbo no passado.
 
-  ```javascript
+  ```
   // não:
-  ```
-
-  ```
   git commit -m "adicionando novo server"
   ```
 
-  ```javascript
+  ```
   // sim:
-  ```
-
-  ```
   git commit -m "Adicionado novo server"
   ```
 
