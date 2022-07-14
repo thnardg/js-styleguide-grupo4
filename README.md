@@ -1,6 +1,6 @@
 # JavaScript Style Guide() {
 
-_Style guide simplificado para o Grupo 4 do PI `Mentora-me` na Digital House_
+_Style guide simplificado para o Grupo 4 do PI Mentora-me para Digital House_
 
 > Adaptado do [Airbnb StyleGuide](https://github.com/airbnb/javascript)
 
@@ -10,19 +10,19 @@ _Style guide simplificado para o Grupo 4 do PI `Mentora-me` na Digital House_
 1. [Variables/Variáveis](#variaveis)
 1. [Objects/Objetos](#objects)
 1. [Arrays/Vetores](#arrays)
+1. [Strings](#strings)
 1. [Functions/Funções](#functions)
-1. [Classes & Constructors](#classes--constructors)
 1. [Properties/Propriedades](#properties)
 1. [Comparison Operators & Equality/Operadores de Comparação & Equidade](#comparison-operators--equality)
 1. [Comentários](#comments)
-1. [Naming Conventions/Nomeação](#naming-conventions)
+1. [Naming Conventions/Nomeação](#naming)
 1. [Git Commits](#git-commits)
 
 ## VS Code
 
 <a name="vs-code"></a><a name="1.1"></a>
 
-- [1.1](#vs-code) Use a extensão Prettier para formatação automática no VS Code.
+- [1.1](#VScode) Use a extensão Prettier para formatação automática no VS Code.
 
 ## Variables/Variáveis
 
@@ -66,7 +66,7 @@ _Style guide simplificado para o Grupo 4 do PI `Mentora-me` na Digital House_
 
 <a name="objects--no-new"></a><a name="3.1"></a>
 
-- [3.1](#objects--no-new) Use a notação literal para criar objetos.
+- [3.1](#objects) Use a notação literal para criar objetos.
 
   ```javascript
   // não:
@@ -100,7 +100,7 @@ _Style guide simplificado para o Grupo 4 do PI `Mentora-me` na Digital House_
 
 <a name="arrays--literals"></a><a name="4.1"></a>
 
-- [4.1](#arrays--literals) Use a notação literal para criar arrays.
+- [4.1](#arrays) Use a notação literal para criar arrays.
 
   ```javascript
   // não:
@@ -122,7 +122,7 @@ _Style guide simplificado para o Grupo 4 do PI `Mentora-me` na Digital House_
 
 <a name="strings--quotes"></a><a name="5.1"></a>
 
-- [5.1](#strings--quotes) Use aspas duplas `""` para strings.
+- [5.1](#strings) Use aspas duplas `""` para strings.
 
   ```javascript
   const name = "Capt. Janeway";
@@ -148,7 +148,7 @@ _Style guide simplificado para o Grupo 4 do PI `Mentora-me` na Digital House_
 
 <a name="functions--declarations"></a><a name="6.1"></a>
 
-- [6.1](#functions--declarations) Declare as funções dentro de uma variável `const`.
+- [6.1](#functions) Declare as funções dentro de uma variável `const`.
 
   ```javascript
   // sim:
@@ -163,7 +163,7 @@ _Style guide simplificado para o Grupo 4 do PI `Mentora-me` na Digital House_
 
 <a name="properties--dot"></a><a name="7.1"></a>
 
-- [7.1](#properties--dot) Use `.` para acessar propriedades.
+- [7.1](#properties) Use `.` para acessar propriedades.
 
   ```javascript
   const luke = {
@@ -198,7 +198,7 @@ _Style guide simplificado para o Grupo 4 do PI `Mentora-me` na Digital House_
 
 <a name="comparison--eqeqeq"></a><a name="8.1"></a>
 
-- [8.1](#comparison--eqeqeq) Dê preferência ao uso de `===` e `!==` ao invés de `==` e `!=`.
+- [8.1](#comparison-operators--equality) Dê preferência ao uso de `===` e `!==` ao invés de `==` e `!=`.
 
 **[⬆ voltar ao início](#table-of-contents)**
 
@@ -206,7 +206,7 @@ _Style guide simplificado para o Grupo 4 do PI `Mentora-me` na Digital House_
 
 <a name="comments--multiline"></a><a name="9.1"></a>
 
-- [9.1](#comments--multiline) Use `/** ... */` para comentar várias linhas.
+- [9.1](#comments) Use `/** ... */` para comentar várias linhas.
 - [9.2](#comments--singleline) Use `//` para comentários de uma linha só, sempre na linha acima do que você gostaria de comentar.
 
   ```javascript
@@ -274,7 +274,7 @@ _Style guide simplificado para o Grupo 4 do PI `Mentora-me` na Digital House_
 
 <a name="naming--descriptive"></a><a name="10.1"></a>
 
-- [10.1](#variaveis-ingles) Utilize inglês preferencialmente.
+- [10.1](#naming) Utilize inglês preferencialmente.
 - [10.2](#naming--descriptive) Evitar nomes não-descritivos.
 
   ```javascript
