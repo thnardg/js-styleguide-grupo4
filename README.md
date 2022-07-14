@@ -60,13 +60,13 @@ _Style guide simplificado para o Grupo 4 do PI Mentora-me para Digital House_
   let length;
   ```
 
-  **[⬆ back to top](#table-of-contents)**
+**[⬆ voltar ao início](#table-of-contents)**
 
 ## Objects/Objetos
 
 <a name="objects--no-new"></a><a name="3.1"></a>
 
-- [3.1](#objects--no-new) Use template literal para criar objetos.
+- [3.1](#objects--no-new) Use a notação literal para criar objetos.
 
   ```javascript
   // não:
@@ -94,13 +94,13 @@ _Style guide simplificado para o Grupo 4 do PI Mentora-me para Digital House_
   };
   ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ voltar ao início](#table-of-contents)**
 
 ## Arrays/Vetores
 
 <a name="arrays--literals"></a><a name="4.1"></a>
 
-- [4.1](#arrays--literals) Use o template literal para criar arrays.
+- [4.1](#arrays--literals) Use a notação literal para criar arrays.
 
   ```javascript
   // não:
@@ -116,7 +116,7 @@ _Style guide simplificado para o Grupo 4 do PI Mentora-me para Digital House_
       const itemsCopy = [...items];
       ```
 
-  **[⬆ back to top](#table-of-contents)**
+**[⬆ voltar ao início](#table-of-contents)**
 
 ## Strings
 
@@ -128,7 +128,7 @@ _Style guide simplificado para o Grupo 4 do PI Mentora-me para Digital House_
   const name = "Capt. Janeway";
   ```
 
-- [5.2](#es6-template-literals) Use template para criar strings sem concatenação.
+- [5.2](#es6-template-literals) Use template literal para criar strings sem concatenação.
 
   ```javascript
   // não:
@@ -142,7 +142,7 @@ _Style guide simplificado para o Grupo 4 do PI Mentora-me para Digital House_
   }
   ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ voltar ao início](#table-of-contents)**
 
 ## Functions/Funções
 
@@ -157,7 +157,7 @@ _Style guide simplificado para o Grupo 4 do PI Mentora-me para Digital House_
   };
   ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ voltar ao início](#table-of-contents)**
 
 ## Properties/Propriedades
 
@@ -192,7 +192,7 @@ _Style guide simplificado para o Grupo 4 do PI Mentora-me para Digital House_
   const isJedi = getProp("jedi");
   ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ voltar ao início](#table-of-contents)**
 
 ## Comparison Operators & Equality/Operadores de Comparação e Equidade
 
@@ -200,7 +200,7 @@ _Style guide simplificado para o Grupo 4 do PI Mentora-me para Digital House_
 
 - [8.1](#comparison--eqeqeq) Dê preferência ao uso de `===` e `!==` ao invés de `==` e `!=`.
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ voltar ao início](#table-of-contents)**
 
 ## Comentários
 
@@ -268,7 +268,7 @@ _Style guide simplificado para o Grupo 4 do PI Mentora-me para Digital House_
   }
   ```
 
-  **[⬆ back to top](#table-of-contents)**
+**[⬆ voltar ao início](#table-of-contents)**
 
 ## Naming Conventions/Nomeação
 
@@ -324,7 +324,7 @@ _Style guide simplificado para o Grupo 4 do PI Mentora-me para Digital House_
   import insideDirectory from "./insideDirectory";
   ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ voltar ao início](#table-of-contents)**
 
 ## Git Commits
 
@@ -341,5 +341,7 @@ _Style guide simplificado para o Grupo 4 do PI Mentora-me para Digital House_
   // sim:
   git commit -m "Adicionado novo server"
   ```
+
+  **[⬆ voltar ao início](#table-of-contents)**
 
 # };
