@@ -81,8 +81,8 @@ _Style guide simplificado para o Grupo 4 do PI `Mentora-me` para Digital House_
   ```javascript
   // não:
   const bad = {
-    foo: 3,
-    bar: 4,
+    "foo": 3,
+    "bar": 4,
     "data-blah": 5,
   };
 
