@@ -1,6 +1,6 @@
 # JavaScript Style Guide() {
 
-_Style guide simplificado para o Grupo 4 do PI Mentora-me para Digital House_
+_Style guide simplificado para o Grupo 4 do PI `Mentora-me` para Digital House_
 
 > Adaptado do [Airbnb StyleGuide](https://github.com/airbnb/javascript)
 
@@ -112,9 +112,19 @@ _Style guide simplificado para o Grupo 4 do PI Mentora-me para Digital House_
 
 - [4.2](#es6-array-spreads) Use o spread operator `...` para copiar um array.
 
-      ```javascript
-      const itemsCopy = [...items];
-      ```
+    ```javascript
+    // não:
+    const len = items.length;
+    const itemsCopy = [];
+    let i;
+
+    for (i = 0; i < len; i += 1) {
+      itemsCopy[i] = items[i];
+    }
+
+    // sim:
+    const itemsCopy = [...items];
+    ```
 
 **[⬆ voltar ao início](#table-of-contents)**
 
