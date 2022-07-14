@@ -1,6 +1,6 @@
 # JavaScript Style Guide() {
 
-_Style guide simplificado para o Grupo 4 do PI Mentora-me para Digital House_
+_Style guide simplificado para o Grupo 4 do PI `Mentora-me` na Digital House_
 
 > Adaptado do [Airbnb StyleGuide](https://github.com/airbnb/javascript)
 
