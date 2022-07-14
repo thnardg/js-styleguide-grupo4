@@ -20,7 +20,7 @@ _Style guide simplificado para o Grupo 4 do PI Mentora-me para Digital House_
 
 ## VS Code
 
-<a name="vs-code"></a><a name="1.1"></a>
+<a name="VScode"></a><a name="1.1"></a>
 
 - [1.1](#VScode) Use a extensão Prettier para formatação automática no VS Code.
 
@@ -64,7 +64,7 @@ _Style guide simplificado para o Grupo 4 do PI Mentora-me para Digital House_
 
 ## Objects/Objetos
 
-<a name="objects--no-new"></a><a name="3.1"></a>
+<a name="objects"></a><a name="3.1"></a>
 
 - [3.1](#objects) Use a notação literal para criar objetos.
 
@@ -98,7 +98,7 @@ _Style guide simplificado para o Grupo 4 do PI Mentora-me para Digital House_
 
 ## Arrays/Vetores
 
-<a name="arrays--literals"></a><a name="4.1"></a>
+<a name="arrays"></a><a name="4.1"></a>
 
 - [4.1](#arrays) Use a notação literal para criar arrays.
 
@@ -120,7 +120,7 @@ _Style guide simplificado para o Grupo 4 do PI Mentora-me para Digital House_
 
 ## Strings
 
-<a name="strings--quotes"></a><a name="5.1"></a>
+<a name="strings"></a><a name="5.1"></a>
 
 - [5.1](#strings) Use aspas duplas `""` para strings.
 
@@ -146,7 +146,7 @@ _Style guide simplificado para o Grupo 4 do PI Mentora-me para Digital House_
 
 ## Functions/Funções
 
-<a name="functions--declarations"></a><a name="6.1"></a>
+<a name="functions"></a><a name="6.1"></a>
 
 - [6.1](#functions) Declare as funções dentro de uma variável `const`.
 
@@ -161,7 +161,7 @@ _Style guide simplificado para o Grupo 4 do PI Mentora-me para Digital House_
 
 ## Properties/Propriedades
 
-<a name="properties--dot"></a><a name="7.1"></a>
+<a name="properties"></a><a name="7.1"></a>
 
 - [7.1](#properties) Use `.` para acessar propriedades.
 
@@ -196,7 +196,7 @@ _Style guide simplificado para o Grupo 4 do PI Mentora-me para Digital House_
 
 ## Comparison Operators & Equality/Operadores de Comparação e Equidade
 
-<a name="comparison--eqeqeq"></a><a name="8.1"></a>
+<a name="comparison"></a><a name="8.1"></a>
 
 - [8.1](#comparison-operators--equality) Dê preferência ao uso de `===` e `!==` ao invés de `==` e `!=`.
 
@@ -204,7 +204,7 @@ _Style guide simplificado para o Grupo 4 do PI Mentora-me para Digital House_
 
 ## Comentários
 
-<a name="comments--multiline"></a><a name="9.1"></a>
+<a name="comments"></a><a name="9.1"></a>
 
 - [9.1](#comments) Use `/** ... */` para comentar várias linhas.
 - [9.2](#comments--singleline) Use `//` para comentários de uma linha só, sempre na linha acima do que você gostaria de comentar.
@@ -272,7 +272,7 @@ _Style guide simplificado para o Grupo 4 do PI Mentora-me para Digital House_
 
 ## Naming Conventions/Nomeação
 
-<a name="naming--descriptive"></a><a name="10.1"></a>
+<a name="naming"></a><a name="10.1"></a>
 
 - [10.1](#naming) Utilize inglês preferencialmente.
 - [10.2](#naming--descriptive) Evitar nomes não-descritivos.
